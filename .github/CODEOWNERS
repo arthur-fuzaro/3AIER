@@ -1,0 +1,20 @@
+# CODEOWNERS — quem revisa cada parte do sistema multiagente.
+# A última regra que casar com o arquivo vence.
+
+# Padrão: qualquer arquivo
+*                   @arthur-fuzaro
+
+# Prompts de sistema / perfis dos agentes (Ada, Lint, Val e base)
+agent.md            @arthur-fuzaro
+agent-*.md          @arthur-fuzaro
+
+# Memória injetada no prompt
+memory.md           @arthur-fuzaro
+
+# Lógica do agente (loop, ferramentas) e interface
+agent.py            @arthur-fuzaro
+app.py              @arthur-fuzaro
+
+# Dependências e governança do repo
+requirements.txt    @arthur-fuzaro
+/.github/           @arthur-fuzaro
